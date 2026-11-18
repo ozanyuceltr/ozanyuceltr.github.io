@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ücretsiz Yerel İşletme Schema Oluşturucu (LocalBusiness JSON-LD) | Ozan Yücel</title>
+<meta name="description" content="İşletmeniz için Google, Google Haritalar ve yapay zeka asistanlarının (ChatGPT, Gemini, Perplexity) anladığı LocalBusiness schema kodunu ücretsiz oluşturun. Ozan Yücel, İzmir SEO ve AEO/GEO uzmanı.">
+<link rel="canonical" href="https://ozanyuceltr.github.io/">
+<meta property="og:title" content="Ücretsiz Yerel İşletme Schema Oluşturucu | Ozan Yücel">
+<meta property="og:description" content="Google ve yapay zeka aramaları için LocalBusiness JSON-LD kodunu saniyeler içinde oluşturun.">
+<meta property="og:url" content="https://ozanyuceltr.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta name="author" content="Ozan Yücel">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "name": "Yerel İşletme Schema Oluşturucu",
+      "url": "https://ozanyuceltr.github.io/",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Web",
+      "inLanguage": "tr",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "TRY" },
+      "author": { "@id": "https://ozanyucel.tr/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ozanyucel.tr/#person",
+      "name": "Ozan Yücel",
+      "jobTitle": "Web Tasarım, SEO ve AEO/GEO Uzmanı",
+      "url": "https://ozanyucel.tr/",
+      "address": { "@type": "PostalAddress", "addressLocality": "İzmir", "addressCountry": "TR" },
+      "sameAs": [
+        "https://github.com/ozanyuceltr",
+        "https://www.linkedin.com/in/ozanyuceltr",
+        "https://www.youtube.com/@ozanyuceltr",
+        "https://www.instagram.com/ozanyucel.tr/",
+        "https://www.facebook.com/ozanyucel.tr",
+        "https://x.com/ozanyuceltr",
+        "https://www.tiktok.com/@ozanyuceltr"
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0b0c0f;--card:#14161b;--line:#262a33;--text:#f2f3f5;--muted:#9aa1ad;--accent:#F9A719;--accent-ink:#0b0c0f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font:16px/1.65 Manrope,system-ui,-apple-system,Segoe UI,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{display:flex;align-items:center;gap:10px;color:var(--text);text-decoration:none;font-weight:800}
+.dot{width:34px;height:34px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-size:14px;font-weight:800}
+.nav a.cta{background:var(--accent);color:var(--accent-ink);padding:8px 16px;border-radius:999px;font-weight:700;text-decoration:none;font-size:14px}
+.hero{padding:56px 0 28px}
+.eyebrow{color:var(--accent);font-weight:700;font-size:13px;letter-spacing:.08em;text-transform:uppercase}
+h1{font-size:clamp(28px,4.5vw,44px);line-height:1.15;margin:10px 0 14px;font-weight:800}
+h2{font-size:24px;margin:0 0 12px;font-weight:800}
+h3{font-size:17px;margin:18px 0 6px}
+.lead{color:var(--muted);max-width:720px;font-size:18px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding:24px 0 48px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+label{display:block;font-size:13px;color:var(--muted);margin:12px 0 4px;font-weight:600}
+input,select,textarea{width:100%;background:var(--bg);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:10px 12px;font:inherit;font-size:15px}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--accent);border-color:transparent}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.check{display:flex;gap:8px;align-items:center;margin-top:12px;color:var(--text);font-size:14px}
+.check input{width:auto}
+pre{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:14px;overflow:auto;font-size:13px;line-height:1.5;max-height:620px;white-space:pre-wrap;word-break:break-word}
+.btn{background:var(--accent);color:var(--accent-ink);border:0;border-radius:999px;padding:10px 18px;font:inherit;font-weight:800;cursor:pointer;margin-top:12px}
+.note{color:var(--muted);font-size:13px;margin-top:8px}
+section.info{padding:8px 0 40px}
+section.info p,section.info li{color:var(--muted);max-width:800px}
+section.info ol,section.info ul{padding-left:20px;margin-top:6px}
+.about{display:flex;gap:18px;align-items:flex-start}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:14px}
+footer nav a{margin-right:14px}
+@media (max-width:820px){.grid{grid-template-columns:1fr}.row{grid-template-columns:1fr}.nav a.cta{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="https://ozanyucel.tr/" title="Ozan Yücel – İzmir Web Tasarım ve SEO"><span class="dot">OY</span> Ozan Yücel</a>
+    <a class="cta" href="https://ozanyucel.tr/aeo/" title="AEO/GEO yapay zeka SEO hizmeti">AEO/GEO Hizmeti</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <div class="eyebrow">Ücretsiz SEO aracı</div>
+    <h1>Yerel İşletme Schema Oluşturucu</h1>
+    <p class="lead">Google, Google Haritalar ve ChatGPT, Gemini, Perplexity gibi yapay zeka asistanlarının işletmenizi doğru anlaması için gereken <strong>LocalBusiness JSON-LD</strong> kodunu saniyeler içinde oluşturun. Kayıt yok, veri saklanmaz; her şey tarayıcınızda çalışır.</p>
+  </div>
+
+  <div class="grid">
+    <form class="card" id="f" autocomplete="off">
+      <h2>İşletme bilgileri</h2>
+      <label for="type">İşletme türü</label>
+      <select id="type">
+        <option value="LocalBusiness">Genel yerel işletme (LocalBusiness)</option>
+        <option value="ProfessionalService">Profesyonel hizmet / ajans</option>
+        <option value="Restaurant">Restoran</option>
+        <option value="CafeOrCoffeeShop">Kafe</option>
+        <option value="Store">Mağaza</option>
+        <option value="JewelryStore">Kuyumcu</option>
+        <option value="BeautySalon">Güzellik salonu</option>
+        <option value="HairSalon">Kuaför</option>
+        <option value="Dentist">Diş hekimi</option>
+        <option value="MedicalClinic">Klinik</option>
+        <option value="LegalService">Hukuk bürosu</option>
+        <option value="AccountingService">Muhasebe / mali müşavir</option>
+        <option value="RealEstateAgent">Emlak ofisi</option>
+        <option value="AutoRepair">Oto servis</option>
+        <option value="HomeAndConstructionBusiness">İnşaat / tadilat</option>
+        <option value="Hotel">Otel</option>
+        <option value="SportsActivityLocation">Spor salonu</option>
+      </select>
+      <label for="name">İşletme adı *</label>
+      <input id="name" placeholder="Örn. Ege Kahve Evi">
+      <label for="desc">Kısa açıklama</label>
+      <textarea id="desc" rows="2" placeholder="Ne yaptığınızı bir iki cümleyle anlatın"></textarea>
+      <div class="row">
+        <div><label for="url">Web sitesi</label><input id="url" placeholder="https://"></div>
+        <div><label for="tel">Telefon</label><input id="tel" placeholder="+90 232 000 00 00"></div>
+      </div>
+      <div class="row">
+        <div><label for="email">E-posta</label><input id="email" placeholder="info@"></div>
+        <div><label for="price">Fiyat aralığı</label><input id="price" placeholder="₺₺"></div>
+      </div>
+      <label for="street">Adres (sokak, no)</label>
+      <input id="street" placeholder="Örn. Kıbrıs Şehitleri Cad. No:10">
+      <div class="row">
+        <div><label for="district">İlçe</label><input id="district" placeholder="Konak"></div>
+        <div><label for="city">İl</label><input id="city" value="İzmir"></div>
+      </div>
+      <div class="row">
+        <div><label for="postal">Posta kodu</label><input id="postal" placeholder="35220"></div>
+        <div><label for="country">Ülke kodu</label><input id="country" value="TR"></div>
+      </div>
+      <div class="row">
+        <div><label for="lat">Enlem</label><input id="lat" placeholder="38.4237"></div>
+        <div><label for="lng">Boylam</label><input id="lng" placeholder="27.1428"></div>
+      </div>
+      <label for="logo">Logo URL</label>
+      <input id="logo" placeholder="https://.../logo.png">
+      <label for="image">Fotoğraf URL</label>
+      <input id="image" placeholder="https://.../isletme.jpg">
+      <label for="hours">Çalışma saatleri</label>
+      <div class="row">
+        <div><input id="open" value="09:00" aria-label="Açılış"></div>
+        <div><input id="close" value="18:00" aria-label="Kapanış"></div>
+      </div>
+      <label class="check"><input type="checkbox" id="sat" checked> Cumartesi açık</label>
+      <label class="check"><input type="checkbox" id="sun"> Pazar açık</label>
+      <label class="check"><input type="checkbox" id="always"> 7/24 açık</label>
+      <label for="area">Hizmet bölgeleri (virgülle)</label>
+      <input id="area" placeholder="Konak, Karşıyaka, Bornova">
+      <label for="same">Sosyal profiller ve dizinler (her satıra bir link)</label>
+      <textarea id="same" rows="4" placeholder="https://www.instagram.com/...&#10;https://www.facebook.com/...&#10;Google Haritalar linkiniz"></textarea>
+    </form>
+
+    <div class="card">
+      <h2>Schema kodunuz</h2>
+      <pre id="out" aria-live="polite"></pre>
+      <button class="btn" id="copy" type="button">Kodu kopyala</button>
+      <p class="note">Kodu sitenizin &lt;head&gt; bölümüne ekleyin, sonra Google'ın <a href="https://search.google.com/test/rich-results" rel="noopener" target="_blank">Zengin Sonuçlar Testi</a> ile kontrol edin.</p>
+    </div>
+  </div>
+
+  <section class="info">
+    <h2>LocalBusiness schema nedir, neden önemli?</h2>
+    <p>Schema (yapılandırılmış veri), sitenizdeki bilgileri arama motorlarının ve yapay zeka modellerinin okuyabileceği standart bir formatta anlatan koddur. İşletme adınız, adresiniz, telefonunuz ve çalışma saatleriniz bu kodla netleşir.</p>
+    <ul>
+      <li><strong>Google ve Google Haritalar:</strong> İşletme bilgilerinizin web siteniz ve Google İşletme Profiliniz ile tutarlı olduğunu gösterir; yerel aramalarda güven sinyali verir.</li>
+      <li><strong>Yapay zeka aramaları (AEO/GEO):</strong> ChatGPT, Gemini, Perplexity ve Google AI Overviews, "İzmir'de en iyi …" gibi sorulara cevap verirken net ve yapılandırılmış veriye sahip işletmeleri daha kolay anlar ve önerir.</li>
+      <li><strong>sameAs bağlantıları:</strong> Sosyal profillerinizi ve dizin kayıtlarınızı aynı işletmeye bağlar; markanızın tek bir varlık olarak tanınmasına yardım eder.</li>
+    </ul>
+
+    <h3>WordPress sitenize nasıl eklenir?</h3>
+    <ol>
+      <li>Rank Math veya Yoast kullanıyorsanız, önce eklentinin kendi "Local SEO" ayarlarını doldurun; aynı bilgileri iki kez eklemeyin.</li>
+      <li>Eklenti kullanmıyorsanız "WPCode" gibi bir kod eklentisiyle kodu tüm sayfaların &lt;head&gt; bölümüne ekleyin.</li>
+      <li>Google Zengin Sonuçlar Testi ve Schema.org Validator ile hata olmadığını kontrol edin.</li>
+      <li>Adres, telefon ve saatlerin Google İşletme Profilinizle birebir aynı olduğundan emin olun.</li>
+    </ol>
+  </section>
+
+  <section class="info card about">
+    <span class="dot" style="width:56px;height:56px;font-size:20px;flex:none">OY</span>
+    <div>
+      <h2>Bu aracı kim hazırladı?</h2>
+      <p>Bu ücretsiz araç <a href="https://ozanyucel.tr/" title="İzmir web tasarım, SEO ve AEO/GEO uzmanı">Ozan Yücel</a> tarafından hazırlandı. 15 yılı aşkın web tasarım ve dijital pazarlama deneyimiyle İzmir'deki işletmelerin Google, Google Haritalar ve yapay zeka asistanlarında bulunmasını sağlıyorum.</p>
+      <p>Hizmetler: <a href="https://ozanyucel.tr/web-tasarim/">İzmir web tasarım</a> · <a href="https://ozanyucel.tr/seo/">İzmir SEO uzmanı</a> · <a href="https://ozanyucel.tr/aeo/">AEO / GEO (yapay zeka SEO)</a></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <nav>
+      <a href="https://ozanyucel.tr/">ozanyucel.tr</a>
+      <a href="https://github.com/ozanyuceltr" rel="me">GitHub</a>
+      <a href="https://www.linkedin.com/in/ozanyuceltr" rel="me">LinkedIn</a>
+      <a href="https://www.youtube.com/@ozanyuceltr" rel="me">YouTube</a>
+      <a href="https://www.instagram.com/ozanyucel.tr/" rel="me">Instagram</a>
+    </nav>
+    <p style="margin-top:10px">© 2026 Ozan Yücel · İzmir, Türkiye · info@ozanyucel.tr</p>
+  </div>
+</footer>
+
+<script>
+const $=id=>document.getElementById(id);
+const v=id=>$(id).value.trim();
+function build(){
+  const days=["Monday","Tuesday","Wednesday","Thursday","Friday"];
+  if($("sat").checked)days.push("Saturday");
+  if($("sun").checked)days.push("Sunday");
+  const d={"@context":"https://schema.org","@type":v("type"),"name":v("name")||"İşletme adı"};
+  if(v("desc"))d.description=v("desc");
+  if(v("url")){d.url=v("url");d["@id"]=v("url").replace(/\/?$/,"/")+"#business";}
+  if(v("tel"))d.telephone=v("tel");
+  if(v("email"))d.email=v("email");
+  if(v("price"))d.priceRange=v("price");
+  if(v("logo"))d.logo=v("logo");
+  if(v("image"))d.image=v("image");
+  const a={"@type":"PostalAddress"};
+  if(v("street"))a.streetAddress=v("street");
+  if(v("district"))a.addressLocality=v("district");
+  if(v("city"))a.addressRegion=v("city");
+  if(v("postal"))a.postalCode=v("postal");
+  if(v("country"))a.addressCountry=v("country");
+  if(Object.keys(a).length>1)d.address=a;
+  if(v("lat")&&v("lng"))d.geo={"@type":"GeoCoordinates","latitude":Number(v("lat")),"longitude":Number(v("lng"))};
+  d.openingHoursSpecification=$("always").checked
+    ?[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"00:00","closes":"23:59"}]
+    :[{"@type":"OpeningHoursSpecification","dayOfWeek":days,"opens":v("open")||"09:00","closes":v("close")||"18:00"}];
+  const area=v("area").split(",").map(s=>s.trim()).filter(Boolean);
+  if(area.length)d.areaServed=area.map(n=>({"@type":"Place","name":n}));
+  const same=v("same").split(/\n+/).map(s=>s.trim()).filter(s=>/^https?:\/\//.test(s));
+  if(same.length)d.sameAs=same;
+  $("out").textContent='<script type="application/ld+json">\n'+JSON.stringify(d,null,2)+'\n<\/script>';
+}
+document.querySelectorAll("#f input,#f select,#f textarea").forEach(e=>e.addEventListener("input",build));
+$("copy").addEventListener("click",async()=>{
+  try{await navigator.clipboard.writeText($("out").textContent);$("copy").textContent="Kopyalandı ✓";}
+  catch(e){const r=document.createRange();r.selectNodeContents($("out"));const s=getSelection();s.removeAllRanges();s.addRange(r);$("copy").textContent="Seçildi, Ctrl+C ile kopyalayın";}
+  setTimeout(()=>$("copy").textContent="Kodu kopyala",2500);
+});
+build();
+</script>
+</body>
+</html>
